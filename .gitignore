@@ -37,3 +37,13 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# yarn files
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarnrc.yml
